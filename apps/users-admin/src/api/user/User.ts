@@ -1,0 +1,33 @@
+import { Document } from "../document/Document";
+import { Membership } from "../membership/Membership";
+import { JsonValue } from "type-fest";
+
+export type User = {
+  createdAt: Date;
+  documentNumber: string;
+  documentType?: "ID" | "RP" | "PASSPORT";
+  documents?: Document | null;
+  email: string;
+  familyNameAr: string;
+  familyNameEn: string;
+  firstNameAr: string;
+  firstNameEn: string;
+  gender?: "M" | "F";
+  id: string;
+  isCompanyRepresentative: boolean;
+  isSpecialNeeds: boolean;
+  memberships?: Array<Membership>;
+  mobile: string | null;
+  password: string | null;
+  phoneCountrycode: string;
+  profilePhotoPublic: boolean | null;
+  profilePhotoUrl: JsonValue;
+  roles: string;
+  secondNameAr: string;
+  secondNameEn: string;
+  sessionId: string | null;
+  thirdNameAr: string | null;
+  thirdNameEn: string | null;
+  updatedAt: Date;
+  username: string;
+};

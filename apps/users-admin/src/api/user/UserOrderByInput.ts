@@ -1,0 +1,30 @@
+import { SortOrder } from "../../util/SortOrder";
+
+export type UserOrderByInput = {
+  createdAt?: SortOrder;
+  documentNumber?: SortOrder;
+  documentType?: SortOrder;
+  documentsId?: SortOrder;
+  email?: SortOrder;
+  familyNameAr?: SortOrder;
+  familyNameEn?: SortOrder;
+  firstNameAr?: SortOrder;
+  firstNameEn?: SortOrder;
+  gender?: SortOrder;
+  id?: SortOrder;
+  isCompanyRepresentative?: SortOrder;
+  isSpecialNeeds?: SortOrder;
+  mobile?: SortOrder;
+  password?: SortOrder;
+  phoneCountrycode?: SortOrder;
+  profilePhotoPublic?: SortOrder;
+  profilePhotoUrl?: SortOrder;
+  roles?: SortOrder;
+  secondNameAr?: SortOrder;
+  secondNameEn?: SortOrder;
+  sessionId?: SortOrder;
+  thirdNameAr?: SortOrder;
+  thirdNameEn?: SortOrder;
+  updatedAt?: SortOrder;
+  username?: SortOrder;
+};

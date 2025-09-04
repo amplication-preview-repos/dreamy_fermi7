@@ -1,0 +1,602 @@
+[
+  {
+    "role": "appealCommittee",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "clubAdmin",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "committee",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "appealCommittee",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "clubAdmin",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "committee",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "appealCommittee",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "clubAdmin",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "committee",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "appealCommittee",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "clubAdmin",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "committee",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "appealCommittee",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "clubAdmin",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "committee",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "appealCommittee",
+    "resource": "Club",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "clubAdmin",
+    "resource": "Club",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "committee",
+    "resource": "Club",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Club",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Club",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "appealCommittee",
+    "resource": "Club",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "clubAdmin",
+    "resource": "Club",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "committee",
+    "resource": "Club",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Club",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Club",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "appealCommittee",
+    "resource": "Club",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "clubAdmin",
+    "resource": "Club",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "committee",
+    "resource": "Club",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Club",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Club",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "appealCommittee",
+    "resource": "Club",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "clubAdmin",
+    "resource": "Club",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "committee",
+    "resource": "Club",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Club",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Club",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "appealCommittee",
+    "resource": "Club",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "clubAdmin",
+    "resource": "Club",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "committee",
+    "resource": "Club",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Club",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Club",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "appealCommittee",
+    "resource": "Membership",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "clubAdmin",
+    "resource": "Membership",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "committee",
+    "resource": "Membership",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Membership",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Membership",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "appealCommittee",
+    "resource": "Membership",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "clubAdmin",
+    "resource": "Membership",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "committee",
+    "resource": "Membership",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Membership",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Membership",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "appealCommittee",
+    "resource": "Membership",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "clubAdmin",
+    "resource": "Membership",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "committee",
+    "resource": "Membership",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Membership",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Membership",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "appealCommittee",
+    "resource": "Membership",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "clubAdmin",
+    "resource": "Membership",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "committee",
+    "resource": "Membership",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Membership",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Membership",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "appealCommittee",
+    "resource": "Membership",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "clubAdmin",
+    "resource": "Membership",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "committee",
+    "resource": "Membership",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Membership",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Membership",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "appealCommittee",
+    "resource": "Document",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "clubAdmin",
+    "resource": "Document",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "committee",
+    "resource": "Document",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Document",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Document",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "appealCommittee",
+    "resource": "Document",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "clubAdmin",
+    "resource": "Document",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "committee",
+    "resource": "Document",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Document",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Document",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "appealCommittee",
+    "resource": "Document",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "clubAdmin",
+    "resource": "Document",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "committee",
+    "resource": "Document",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Document",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Document",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "appealCommittee",
+    "resource": "Document",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "clubAdmin",
+    "resource": "Document",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "committee",
+    "resource": "Document",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Document",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Document",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "appealCommittee",
+    "resource": "Document",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "clubAdmin",
+    "resource": "Document",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "committee",
+    "resource": "Document",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Document",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Document",
+    "action": "read:any",
+    "attributes": "*"
+  }
+]
