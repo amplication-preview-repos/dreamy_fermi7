@@ -1,0 +1,35 @@
+import { StringFilter } from "../../util/StringFilter";
+import { DocumentWhereUniqueInput } from "../document/DocumentWhereUniqueInput";
+import { BooleanFilter } from "../../util/BooleanFilter";
+import { MembershipListRelationFilter } from "../membership/MembershipListRelationFilter";
+import { StringNullableFilter } from "../../util/StringNullableFilter";
+import { BooleanNullableFilter } from "../../util/BooleanNullableFilter";
+import { JsonFilter } from "../../util/JsonFilter";
+
+export type UserWhereInput = {
+  documentNumber?: StringFilter;
+  documentType?: "ID" | "RP" | "PASSPORT";
+  documents?: DocumentWhereUniqueInput;
+  email?: StringFilter;
+  familyNameAr?: StringFilter;
+  familyNameEn?: StringFilter;
+  firstNameAr?: StringFilter;
+  firstNameEn?: StringFilter;
+  gender?: "M" | "F";
+  id?: StringFilter;
+  isCompanyRepresentative?: BooleanFilter;
+  isSpecialNeeds?: BooleanFilter;
+  memberships?: MembershipListRelationFilter;
+  mobile?: StringNullableFilter;
+  password?: StringNullableFilter;
+  phoneCountrycode?: StringFilter;
+  profilePhotoPublic?: BooleanNullableFilter;
+  profilePhotoUrl?: JsonFilter;
+  roles?: StringFilter;
+  secondNameAr?: StringFilter;
+  secondNameEn?: StringFilter;
+  sessionId?: StringNullableFilter;
+  thirdNameAr?: StringNullableFilter;
+  thirdNameEn?: StringNullableFilter;
+  username?: StringFilter;
+};

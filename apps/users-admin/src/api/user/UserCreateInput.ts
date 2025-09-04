@@ -1,0 +1,30 @@
+import { DocumentWhereUniqueInput } from "../document/DocumentWhereUniqueInput";
+import { MembershipCreateNestedManyWithoutUsersInput } from "./MembershipCreateNestedManyWithoutUsersInput";
+import { InputJsonValue } from "../../types";
+
+export type UserCreateInput = {
+  documentNumber: string;
+  documentType: "ID" | "RP" | "PASSPORT";
+  documents?: DocumentWhereUniqueInput | null;
+  email: string;
+  familyNameAr: string;
+  familyNameEn: string;
+  firstNameAr: string;
+  firstNameEn: string;
+  gender: "M" | "F";
+  isCompanyRepresentative: boolean;
+  isSpecialNeeds: boolean;
+  memberships?: MembershipCreateNestedManyWithoutUsersInput;
+  mobile?: string | null;
+  password?: string | null;
+  phoneCountrycode: string;
+  profilePhotoPublic?: boolean | null;
+  profilePhotoUrl?: InputJsonValue;
+  roles: string;
+  secondNameAr: string;
+  secondNameEn: string;
+  sessionId?: string | null;
+  thirdNameAr?: string | null;
+  thirdNameEn?: string | null;
+  username: string;
+};
